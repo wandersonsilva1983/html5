@@ -2,7 +2,7 @@
 - task: Docker@2
   inputs:
     containerRegistry: 'dockerhubeqtech'
-    repository: 'nãoseionome'
+    repository: 'naooseionome'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
